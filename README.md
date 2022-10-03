@@ -8,7 +8,8 @@ pulumi config set okta:orgName XXXXXX
 pulumi config set okta:baseUrl YYYYYY
 
 
-Where XXXXXX is the organization name of your brand new Okta organization. The name can be found in the top right side of your Okta dev page, and shopuld be something similar to dev-12345678
+Where XXXXXX is the organization name of your brand new Okta organization. The name can be found in the top right side of your Okta dev page, and shopuld be something similar to dev-12345678.
+
 YYYYYY should be okta.com
 
 Then, create a new Okta token in this way: https://developer.okta.com/docs/guides/create-an-api-token/main/. Remember to copy the token created this way.
