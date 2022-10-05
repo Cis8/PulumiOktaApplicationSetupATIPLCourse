@@ -1,6 +1,9 @@
 # PulumiOktaApplicationSetupATIPLCourse
 A java program to setup Okta resources using pulumi.
 
+
+## Setup
+
 First of all, create a new Okta Developer account at https://developer.okta.com/signup/.
 
 Now open a terminal in your repository location and type in the following commands:
@@ -23,3 +26,7 @@ Alternatively, the user can be activated by the okta console admin, going under 
 Now, you can execute the command pulumi preview to see the modifications that will be done. If they are correct you can execute the command pulumi up to finalize them.
 
 Now verify the mail that arrived to you e-mail account in order to activate the user or skip this passage if you activated the user by the admin console.
+
+Ensure to have checked to have correctly setted up the following complementary projects:
+- Express JS server: https://github.com/Cis8/ExpressOktaAuthServerATIPLCourseExam
+- Angular WebApp: https://github.com/Cis8/AngularWebAppWithOktaAuthenticationRedirectAndREST_API_ATIPLCourse
