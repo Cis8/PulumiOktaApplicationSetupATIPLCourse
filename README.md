@@ -27,6 +27,6 @@ Now, you can execute the command pulumi preview to see the modifications that wi
 
 Now verify the mail that arrived to you e-mail account in order to activate the user or skip this passage if you activated the user by the admin console.
 
-Ensure to have checked to have correctly setted up the following complementary projects:
+Ensure to have correctly setted up the following complementary projects:
 - Express JS server: https://github.com/Cis8/ExpressOktaAuthServerATIPLCourseExam
 - Angular WebApp: https://github.com/Cis8/AngularWebAppWithOktaAuthenticationRedirectAndREST_API_ATIPLCourse
